@@ -1,0 +1,39 @@
+ul {
+    padding-left: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+img {
+    margin-left: 70%;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+div.row-widget.stRadio > div[role="radiogroup"] > label[data-baseweb="radio"] > div:first-child {
+    background-color: #1771A0;
+}
+
+div.row-widget.stRadio > div {
+    flex-direction: row;
+}
+
+span[data-baseweb="tag"] {
+    background-color: #1771A0 !important;
+}
