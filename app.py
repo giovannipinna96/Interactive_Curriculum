@@ -46,8 +46,8 @@ def is_section(sections, str):
         return False
 
 
-with open("style.css") as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+# with open("style.css") as f:
+#     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 #####################
 # Header
 st.write('''
