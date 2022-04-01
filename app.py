@@ -55,12 +55,12 @@ st.write('''
 # Giovanni Pinna, Master Degree
 ''')
 mode = st.radio('Mode', ('Professional', 'Programming'))
-if mode == 'Professional':
-    image = Image.open('professional.png')
-    st.image(image, width=300)
-else:
-    image = Image.open('programmer.png')
-    st.image(image, width=300)
+# if mode == 'Professional':
+#     image = Image.open('professional.png')
+#     st.image(image, width=300)
+# else:
+#     image = Image.open('programmer.png')
+#     st.image(image, width=300)
 
 language = st.radio('Language', ('Italiano', 'English'))
 
