@@ -10,8 +10,16 @@ h5 {
     text-align: center;
 }
 
-img {
-    margin-left: 3%;
+@media all and (min-width: 1280px) and (max-width: 1689px) {
+    img {
+        margin-left: 70%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    img {
+        margin-left: 3%;
+    }
 }
 
 #MainMenu {
